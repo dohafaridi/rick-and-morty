@@ -13,4 +13,36 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 20px 0;
+  color: #fff;
+}
+
+button[type="reset"] {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text-gray {
+  color: rgb(158, 158, 158);
 }
